@@ -32,10 +32,11 @@ $(document).ready(function(){
         loop: true 
     });
 
-    /* owl carousel */
-    $('.carsel').owlCarousel({
+    // owl carousel script
+    $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
+        autoplay: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
@@ -53,4 +54,5 @@ $(document).ready(function(){
             }
         }
     });
+    
 }); 

@@ -6,6 +6,9 @@ $colorbackbarhover: rgb(4, 27, 160);
 ::-webkit-scrollbar {
     width: 2px; /* ancho barra */
   }
+  ::-webkit-scrollbar:vertical{
+    width: 2px !important;
+  }
   ::-webkit-scrollbar-track {
     background: $colorback; /* color fondo barra */
     opacity: 0;

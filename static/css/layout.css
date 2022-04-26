@@ -4,6 +4,10 @@
   /* ancho barra */
 }
 
+::-webkit-scrollbar:vertical {
+  width: 2px !important;
+}
+
 ::-webkit-scrollbar-track {
   background: black;
   /* color fondo barra */
